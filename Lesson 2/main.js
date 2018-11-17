@@ -5,7 +5,8 @@ var money = +prompt("Ваш бюджет за месяц?", ""),
     // + ставиться для того что бы введённое значение приобрело числовой тип данных
     time = prompt("Введите дату в формате YYYY-MM-DD", "")
 // Тип данных объект
-appData = {
+
+let appData = {
     budget: money,
     timeData: time,
     expenses: {},
